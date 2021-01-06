@@ -1,0 +1,11 @@
+apiVersion: core.jenkins-x.io/v4beta1
+kind: Requirements
+spec:
+  cluster:
+    gitKind: github
+    gitName: github
+    gitServer: https://github.com
+    provider: github
+    registry: ghcr.io
+  environments:
+  - key: dev
