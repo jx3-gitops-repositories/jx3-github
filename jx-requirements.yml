@@ -2,7 +2,7 @@ apiVersion: core.jenkins-x.io/v4beta1
 kind: Requirements
 spec:
   cluster:
-    chartOCI: true
+    chartKind: pages
     gitKind: github
     gitName: github
     gitServer: https://github.com
